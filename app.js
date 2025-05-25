@@ -56,3 +56,9 @@
 // for (let i = b - 1; i > a; i--) {
 //   console.log(i);
 // }
+
+// For3. Bir kg konfetning narxi berilgan (haqiqiy son). 1, 2, 10 kg konfetni narxini chiqaruvchi programma tuzilsin.
+let price = 30000;
+for (let i = 1; i <= 10; i++) {
+  console.log(`${i}kg ${i * price}`);
+}
