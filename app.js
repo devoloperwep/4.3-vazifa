@@ -35,6 +35,10 @@
 //   console.log(line.trim());
 // }
 
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
-}
+// For6. Sonning bo’luvchilarini topish;
+// let son = 20;
+// for (let i = 1; i <= son; i++) {
+//   if (son % i == 0) {
+//     console.log(i);
+//   }
+// }
