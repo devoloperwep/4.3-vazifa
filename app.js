@@ -133,11 +133,22 @@
 // }
 
 // For19. n butun soni berilgan (n > 1). N sonini tub yoki tub emasligini aniqlovchi programma tuzilsin.
-let n = 5;
-let t = 0;
-for (let i = 1; i <= n; i++) {
-  if (n % i == 0) {
-    t++;
-  }
-}
-t == 2 ? console.log("tub son.") : console.log("tub emas!");
+// let n = 5;
+// let t = 0;
+// for (let i = 1; i <= n; i++) {
+//   if (n % i == 0) {
+//     t++;
+//   }
+// }
+// t == 2 ? console.log("tub son.") : console.log("tub emas!");
+
+// For20. Sonlarni quyidagi tartibda chiqaruvchi dastur tuzing. N = 5 bo’lganda,
+// let a = 1;
+// let b = 10;
+// for (let i = a; i <= b; i++) {
+//   let line = "";
+//   for (let j = 0; j < i; j++) {
+//     line += i + " ";
+//   }
+//   console.log(line.trim());
+// }
