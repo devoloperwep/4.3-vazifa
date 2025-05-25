@@ -133,10 +133,11 @@
 // }
 
 // For19. n butun soni berilgan (n > 1). N sonini tub yoki tub emasligini aniqlovchi programma tuzilsin.
-let n = 3;
+let n = 5;
 let t = 0;
 for (let i = 1; i <= n; i++) {
   if (n % i == 0) {
-    t += i;
+    t++;
   }
 }
+t == 2 ? console.log("tub son.") : console.log("tub emas!");
