@@ -126,11 +126,13 @@
 
 // For18. Sonning barcha bo’luvchilarini, ularning sonini va yig’indisini chiqaruvchi dastur tuzing.
 // let b = 20;
+// let y = 0;
 // for (let i = 1; i <= b; i++) {
 //   if (b % i == 0) {
-//     console.log(i);
+//     y += i;
 //   }
 // }
+// console.log(y);
 
 // For19. n butun soni berilgan (n > 1). N sonini tub yoki tub emasligini aniqlovchi programma tuzilsin.
 // let n = 5;
