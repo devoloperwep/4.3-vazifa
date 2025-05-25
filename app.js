@@ -58,7 +58,85 @@
 // }
 
 // For3. Bir kg konfetning narxi berilgan (haqiqiy son). 1, 2, 10 kg konfetni narxini chiqaruvchi programma tuzilsin.
-let price = 30000;
-for (let i = 1; i <= 10; i++) {
-  console.log(`${i}kg ${i * price}`);
+// let price = 30000;
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`${i}kg ${i * price}`);
+// }
+
+// For4. Bir kg konfetning narxi berilgan (haqiqiy son). 1.2, 1.4, ..., 2 kg konfetni narxini chiqaruvchi programma tuzilsin.
+// let price = 30000;
+// let sum = 1;
+// for (let i = 1; i <= 5; i++) {
+//   sum += 0.2;
+//   console.log(`${sum} kg ${sum * price}`);
+// }
+
+// For5. a va b butun sonlari berilgan (a < b). a dan b gacha bo'lgan barcha butun sonlar yig'indisini chiqaruvchi programma tuzilsin.
+// let a = 5;
+// let b = 15;
+// let y = 0;
+// for (let i = a; i < b; i++) {
+//   y += i;
+// }
+// console.log(y);
+
+// For6. a va b butun sonlari berilgan (a < b). a dan b gacha bo'lgan barcha butun sonlar ko'paytmasini chiqaruvchi programma tuzilsin.
+// let a = 5;
+// let b = 15;
+// let y = 1;
+// for (let i = a; i < b; i++) {
+//   y += i * y - 1;
+//   console.log(y);
+// }
+// console.log(y);
+
+// For7. a va b butun sonlari berilgan (a < b). a dan b gacha bo'lgan barcha butun sonlar kvadratlarining yig'indisini chiqaruvchi programma tuzilsin.
+// let a = 5;
+// let b = 15;
+// let y = 0;
+// for (let i = a; i < b; i++) {
+//   y += i * i;
+//   console.log(y);
+// }
+// console.log(y);
+
+// For8. n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblovchi programma tuzilsin. S=1+1/2+1/3+...+1/n
+// let n = 10;
+// let s = 0;
+// for (let i = 1; i <= n; i++) {
+//   s += i + 1;
+// }
+// console.log(s);
+
+// For9. n butun soni berilgan (n > 0). Quyidagi ko'paytmani hisoblovchi programma tuzilsin. S=1.1*1.2* 1.3*... *n
+// let n = 5;
+// let s = 1;
+// for (let i = 1; i <= n; i++) {
+//   s += 0.2;
+//   console.log(s);
+// }
+
+// For12. n butun soni va a haqiqiy soni berilgan (n > 0). Bir sikldan foydalanib a ning 1 dan n gacha bo'lgan barcha darajalarini chiqaruvchi programma tuzilsin.
+// let n = 10;
+// for (let i = 1; i < n; i++) {
+//   console.log(i ** 2);
+// }
+
+// For17. A va B butun soni berilgan (A < B). A va B sonlari orasidagi barcha butun sonlarni chiqaruvchi programma tuzilsin. Bunda A soni 1 marta, (A + 1) soni 2 marta chiqariladi va xokazo.
+
+// For18. Sonning barcha bo’luvchilarini, ularning sonini va yig’indisini chiqaruvchi dastur tuzing.
+// let b = 20;
+// for (let i = 1; i <= b; i++) {
+//   if (b % i == 0) {
+//     console.log(i);
+//   }
+// }
+
+// For19. n butun soni berilgan (n > 1). N sonini tub yoki tub emasligini aniqlovchi programma tuzilsin.
+let n = 3;
+let t = 0;
+for (let i = 1; i <= n; i++) {
+  if (n % i == 0) {
+    t += i;
+  }
 }
