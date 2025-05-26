@@ -154,3 +154,13 @@
 //   }
 //   console.log(line.trim());
 // }
+
+// Ixtiyoriy
+// if1. Butun son berilgan. Agar berilgan son musbat bo`lsa, 1 ga oshiring, aks holda 2 ga kamaytiring. Hosil bo`lgan sonni ekranga chiqaruvchi programma tuzilsin.
+// let son = 10;
+// if (0 < son) {
+//   son++;
+// } else {
+//   son -= 2;
+// }
+// console.log(son);
